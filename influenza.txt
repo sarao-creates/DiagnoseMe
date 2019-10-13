@@ -1,0 +1,8 @@
+InfluenzaSymptoms for Influenza:
+
+Fever
+Cough 
+Sore Throat
+Runny Nose
+Body Aches
+Fatigue

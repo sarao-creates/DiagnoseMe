@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="212dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="40dp"
+        android:text="Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="199dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="40dp"
+        android:text="Settings"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/headache"
+        android:layout_width="417dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="124dp"
+        android:text="HEADACHE - 10/03/2019"
+        android:clickable="true"
+        android:onClick="clicked4"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/influenza"
+        android:layout_width="419dp"
+        android:layout_height="68dp"
+        android:layout_marginBottom="40dp"
+        android:text="INFLUENZA - 10/05/2019"
+        android:clickable="true"
+        android:onClick="clicked3"
+        app:layout_constraintBottom_toTopOf="@+id/headache"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/fever"
+        android:layout_width="412dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="32dp"
+        android:text="FEVER - 10/07/2019"
+        android:clickable="true"
+        android:onClick="clicked2"
+        app:layout_constraintBottom_toTopOf="@+id/influenza"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="412dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="44dp"
+        android:text="COMMON COLD - 10/12/2019"
+        android:clickable="true"
+        android:onClick="clicked1"
+        app:layout_constraintBottom_toTopOf="@+id/fever"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="153dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="36dp"
+        android:text="DiagnoseMe Log"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/commonCold"
+        android:layout_width="67dp"
+        android:layout_height="53dp"
+        android:clickable="true"
+        android:onClick="browser1"
+        app:srcCompat="@android:drawable/ic_input_add"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

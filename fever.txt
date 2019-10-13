@@ -1,0 +1,11 @@
+Fever
+
+Symptoms for fever:
+
+Temperature Greater than 104 Degrees
+Headache
+Nausea
+Cough
+Sore Throat
+Chills
+Vomiting

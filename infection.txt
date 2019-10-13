@@ -1,0 +1,6 @@
+InfectionSymptoms: 
+
+Pain
+Fever
+Swelling
+Vomiting
