@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "248212673073",
+    "firebase_url": "https://diagnoseme-2e256.firebaseio.com",
+    "project_id": "diagnoseme-2e256",
+    "storage_bucket": "diagnoseme-2e256.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248212673073:android:9e905f1024cd24f4d37b10",
+        "android_client_info": {
+          "package_name": "com.example.diagnose_me"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248212673073-n817i8b6f3uiep80k0rb8f51dptj7fcd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtKXLpYWOxOvdHs_KTAQmYbdEW5CnGWC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248212673073-n817i8b6f3uiep80k0rb8f51dptj7fcd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
